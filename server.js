@@ -15,12 +15,16 @@ app.set('views', 'views')
 app.set('view engine', 'ejs')
 
 //4: Routing kodlari
+app.post('/create-item', function (req, res) {
+	console.log(req.body)
+	res.json({ name: 'Ismatbek' })
+})
 app.get('/', function (req, res) {
-	res.end(`<h1>Hello World!</h1>`)
+	res.render('harid')
 })
-app.get('/hello', function (req, res) {
-	res.end(`<h1 style="color: red;">Hello World! by Ismatbek</h1>`)
-})
+// app.get('/hello', function (req, res) {
+// 	res.end(`<h1 style="color: red;">Hello World! by Ismatbek</h1>`)
+// })
 
 const server = http.createServer(app)
 let PORT = 3000
