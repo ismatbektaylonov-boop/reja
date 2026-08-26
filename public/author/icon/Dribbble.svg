@@ -1,0 +1,40 @@
+<svg viewBox="0 0 32.9863 29.6084" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32.986328" height="29.608398" fill="none" customFrame="#000000">
+	<defs>
+		<g id="pixso_custom_effect_0">
+			<effect x="0.000000" y="4.000000" visibility="visible" fill="rgb(0,0,0)" fill-opacity="0.25" effectType="dropShadow" stdDeviation="4" radius="0" />
+		</g>
+		<filter id="filter_0" width="32.986328" height="29.608398" x="0.000000" y="0.000000" filterUnits="userSpaceOnUse" customEffect="url(#pixso_custom_effect_0)" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix result="hardAlpha" in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 " />
+			<feOffset dx="0.000000" dy="4.000000" in="hardAlpha" />
+			<feGaussianBlur stdDeviation="1.33333337" />
+			<feComposite k2="-1" k3="1" in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0 " />
+			<feBlend result="effect_dropShadow_1" in2="BackgroundImageFix" mode="normal" />
+			<feBlend result="shape" in="SourceGraphic" in2="effect_dropShadow_1" mode="normal" />
+		</filter>
+		<clipPath id="clipPath_15">
+			<rect width="14.575342" height="12.604972" x="9.205566" y="4.502441" fill="rgb(255,255,255)" />
+		</clipPath>
+		<clipPath id="clipPath_16">
+			<rect width="14.575342" height="12.604972" x="9.205566" y="4.502441" fill="rgb(255,255,255)" />
+		</clipPath>
+		<clipPath id="clipPath_17">
+			<rect width="14.575342" height="12.604972" x="9.205566" y="4.502441" fill="rgb(255,255,255)" />
+		</clipPath>
+	</defs>
+	<g id="Dribbble" filter="url(#filter_0)">
+		<ellipse id="Ellipse 9" rx="12.493151" ry="10.804261" cx="16.4931507" cy="10.8047495" fill="rgb(255,180,0)" />
+		<g id="Icons-dribbble" customFrame="url(#clipPath_15)">
+			<rect id="Icons-dribbble" width="14.575342" height="12.604972" x="9.205566" y="4.502441" fill="rgb(255,255,255)" fill-opacity="0" />
+			<g id="Icons-dribbble" customFrame="url(#clipPath_16)">
+				<rect id="Icons-dribbble" width="14.575342" height="12.604972" x="9.205566" y="4.502441" fill="rgb(255,255,255)" fill-opacity="0" />
+				<g id="Icons-dribbble" clip-path="url(#clipPath_17)" customFrame="url(#clipPath_17)">
+					<rect id="Icons-dribbble" width="14.575342" height="12.604972" x="9.205566" y="4.502441" fill="rgb(255,255,255)" fill-opacity="0" />
+					<path id="Vector" d="M9.20557 4.50244L23.7809 4.50244L23.7809 17.1074L9.20557 17.1074L9.20557 4.50244Z" fill-rule="nonzero" />
+					<path id="Vector" d="M21.3447 10.5805C21.295 9.75378 20.9625 8.95846 20.3895 8.29533C20.2149 8.45795 20.0282 8.61058 19.8307 8.75226C19.224 9.1881 18.546 9.54385 17.8187 9.80793C17.9201 9.99175 18.0131 10.1698 18.0951 10.3379L18.0951 10.3394C18.1182 10.3864 18.1405 10.4337 18.1619 10.4812C19.0813 10.392 20.0506 10.4245 20.9901 10.5343C21.1152 10.549 21.233 10.5647 21.3447 10.5805ZM15.6452 6.66771C16.237 7.38891 16.7828 8.13758 17.28 8.91035C18.0228 8.6572 18.6368 8.33787 19.1311 7.98231C19.3027 7.86 19.4642 7.7275 19.6145 7.58577C18.7406 6.95012 17.6349 6.60224 16.493 6.60364C16.2088 6.60347 15.9251 6.62473 15.6452 6.66719L15.6452 6.66771ZM11.7882 9.7533C12.2019 9.74427 12.6151 9.72273 13.0271 9.6887C14.0228 9.61168 15.0101 9.46733 15.9798 9.25698C15.473 8.49554 14.9259 7.75474 14.3401 7.03693C13.7144 7.305 13.1627 7.6863 12.7224 8.15499C12.2821 8.62367 11.9635 9.16877 11.7882 9.7533ZM12.7174 13.4497C12.953 13.1519 13.2627 12.8168 13.6739 12.4523C14.5569 11.6698 15.599 11.0605 16.8051 10.7244L16.8428 10.715C16.7426 10.5238 16.6485 10.3531 16.5537 10.1924C15.4387 10.4734 14.2642 10.6488 13.0939 10.7396C12.523 10.7843 12.0111 10.8037 11.6345 10.8069C11.6335 11.7694 12.0161 12.7027 12.718 13.4497L12.7174 13.4497ZM18.3179 14.6997C18.0837 13.6783 17.7522 12.6754 17.3268 11.7013C16.111 12.0831 15.1423 12.6414 14.3935 13.3074C14.0913 13.5712 13.8232 13.8627 13.5937 14.1766C14.4311 14.7169 15.4482 15.0082 16.493 15.007C17.1185 15.0077 17.7382 14.9037 18.3179 14.7008L18.3179 14.6997ZM19.4554 14.1351C20.4036 13.5047 21.0495 12.594 21.2694 11.5773C21.063 11.5327 20.8012 11.4881 20.5133 11.4534C19.8733 11.3737 19.2239 11.3679 18.5821 11.4361C18.9435 12.3178 19.2353 13.2197 19.4554 14.1356L19.4554 14.1351ZM16.493 16.0574C13.1388 16.0574 10.4199 13.706 10.4199 10.8053C10.4199 7.90458 13.1388 5.55322 16.493 5.55322C19.8471 5.55322 22.566 7.90458 22.566 10.8053C22.566 13.706 19.8471 16.0574 16.493 16.0574Z" fill="rgb(43,43,43)" fill-rule="nonzero" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

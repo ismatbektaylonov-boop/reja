@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+		integrity="sha384-GEV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+	<title>Portfolio</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="frame">
+			<!-- ========= Left frame======= -->
+			<div class="frame_1 left">
+				<div class="left_profile">
+					<div class="left_row">
+						<div class="left_profileimage">
+							<img src="images/Profile.png" alt="" srcset="">
+						</div>
+						<div class="left_name">
+							<%=user.name%>
+						</div>
+						<div class="left_subname">
+							<%= user.profession %>
+						</div>
+						<div class="left_iconrow">
+							<div class="left_icons">
+								<a href=""><img src="icon/Facebook.svg" alt="" class="icons"> </a>
+							</div>
+							<div class="left_icons">
+								<a href=""> <img src="icon/Instagram.svg" alt="" class="icons"></a>
+							</div>
+							<div class="left_icons">
+								<a href=""><img src="icon/Twitter.svg" alt="" class="icons"></a>
+							</div>
+							<div class="left_icons">
+								<a href=""><img src="icon/Linkeding.svg" alt="" class="icons"></a>
+							</div>
+							<div class="left_icons">
+								<a href=""><img src="icon/Youtube.svg" alt="" class="icons"></a>
+							</div>
+							<div class="left_icons">
+								<a href=""><img src="icon/Dribbble.svg" alt="" class="icons"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="left_borderbottom"></div>
+				<div class="left_personalinfo">
+					<ul class="left_info">
+						<li> <span class="left_textyellow"> Age: </span> <span class="value">
+								<%= user.age %>
+							</span>
+						</li>
+						<li> <span class="left_textyellow"> Residence: </span> <span class="value">
+								<%= user.residence %>
+							</span>
+						</li>
+						<li> <span class="left_textyellow"> Freelance: </span> <span class="left_infogreen">Available</span></li>
+						<li> <span class="left_textyellow">Address: </span> <span class="value">
+								<%= user.address %>
+							</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="left_borderbottom"></div>
+
+				<div class="left_lang">
+					<div class="lang_box">
+						<p class="lang_title">Languages</p>
+						<div class="lang_row">
+							<p class="lang">
+								<%= user.languages[0] %>
+							</p>
+							<p class="lang_perc">100%</p>
+						</div>
+						<div class="lang_row">
+							<p class="lang">
+								<%= user.languages[1] %>
+							</p>
+							<p class="lang_perc">100%</p>
+						</div>
+						<div class="lang_row">
+							<p class="lang">
+								<%= user.languages[2] %>
+							</p>
+							<p class="lang_perc">100%</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="left_skills">
+					<div class="skills_box">
+						<p class="skills_title">Skills</p>
+						<div class="skills_row">
+							<p class="skills">
+								<%= user.skills[0] %>
+							</p>
+							<p class="skills_perc">100%</p>
+						</div>
+						<div class="skills_row">
+							<p class="skills">
+								<%= user.skills[1] %>
+							</p>
+							<p class="skills_perc">100%</p>
+						</div>
+						<div class="skills_row">
+							<p class="skills">
+								<%= user.skills[2] %>
+							</p>
+							<p class="skills_perc">100%</p>
+						</div>
+						<div class="skills_row">
+							<p class="skills">
+								<%= user.skills[3] %>
+							</p>
+							<p class="skills_perc">100%</p>
+						</div>
+						<div class="skills_row">
+							<p class="skills">
+								<%= user.skills[4] %>
+							</p>
+							<p class="skills_perc">100%</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="left_extra">
+					<div class="extra_box">
+						<p class="extra_title">Extra Skills</p>
+						<div class="skills">
+							<div class="skills_icon">
+								<img src="icon/ex_Icons.svg" alt="">
+								<p class="extra_skills">
+									<%= user.extra_skills[0] %>, <%= user.extra_skills[1] %>
+								</p>
+							</div>
+							<div class="skills_icon">
+								<img src="icon/ex_Icons.svg" alt="">
+								<p class="extra_skills">
+									<%= user.extra_skills[2] %>, <%= user.extra_skills[3] %>
+								</p>
+							</div>
+							<div class="skills_icon">
+								<img src="icon/ex_Icons.svg" alt="">
+								<p class="extra_skills">
+									<%= user.extra_skills[4] %>, <%= user.extra_skills[5] %>
+								</p>
+							</div>
+							<div class="skills_icon">
+								<img src="icon/ex_Icons.svg" alt="">
+								<p class="extra_skills">
+									<%= user.extra_skills[6] %>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- ========= MAIN frame =========== -->
+			<div class="frame_2 main">
+				<div class="main__screen">
+					<div class="main__body">
+						<div class="main__row">
+							<div class="main__column1">
+								<div class="main__title">Software Engineer
+									in KOREA</div>
+								<div class="main__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dolorem.</div>
+								<a href="#">
+									<div class="main__btn btn"><b>HIRE ME → </b></div>
+								</a>
+							</div>
+							<div class="main__column2">
+								<div class="main__image">
+									<img src="images/person.png" alt="" class="main__person">
+								</div>
+							</div>
+						</div>
+						<div class="shape main__ellip1">
+							<img src="manu_icon/Ellipse1.svg" alt="">
+						</div>
+						<div class="shape main__ellip2">
+							<img src="manu_icon/Ellipse2.svg" alt="">
+						</div>
+						<div class="shape main__ellip3">
+							<img src="manu_icon/Ellipse3.svg" alt="">
+						</div>
+						<div class="shape main__ellip4">
+							<img src="manu_icon/Ellipse4.svg" alt="">
+						</div>
+						<div class="shape main__pol1">
+							<img src="manu_icon/Polygon1.svg" alt="">
+						</div>
+						<div class="shape main__rec1">
+							<img src="manu_icon/Rectangle1.svg" alt="">
+						</div>
+						<div class="shape main__rec2">
+							<img src="manu_icon/Rectangle2.svg" alt="">
+						</div>
+					</div>
+				</div>
+
+				<!-- ========= SERVICE frame =========== -->
+				<div class="main__service service">
+					<div class="service__intro">
+						<div class="service__title">My Services</div>
+						<div class="service__subtitle">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+							amet sint. Velit officia consequat duis enim velit
+							mollit. Lorem Ipsum</div>
+					</div>
+
+					<div class="service__frame">
+						<div class="service__row">
+
+							<div class="service__box">
+								<div class="service__row1">
+									<div class="service__items">
+										<div class="service__image">
+											<img src="box_images/coding.png" alt="">
+										</div>
+										<div class="service__name">web development</div>
+										<div class="service__text">blog, e-commerce</div>
+									</div>
+									<div class="service__items">
+										<div class="service__image">
+											<img src="box_images/illustration.png" alt="">
+										</div>
+										<div class="service__name">uI/uX design</div>
+										<div class="service__text">Mobile app, website design</div>
+									</div>
+									<div class="service__items">
+										<div class="service__image">
+											<img src="box_images/Microphone.png" alt="">
+										</div>
+										<div class="service__name">sound design</div>
+										<div class="service__text">Voice Over, Beat Making</div>
+									</div>
+								</div>
+								<div class="service__row2">
+									<div class="service__items">
+										<div class="service__image">
+											<img src="box_images/game.png" alt="">
+										</div>
+										<div class="service__name">Game design</div>
+										<div class="service__text">Character Design, Props & Objects</div>
+									</div>
+									<div class="service__items">
+										<div class="service__image">
+											<img src="box_images/Photographer.png" alt="">
+										</div>
+										<div class="service__name">photography</div>
+										<div class="service__text">portrait, product photography</div>
+									</div>
+									<div class="service__items">
+										<div class="service__image">
+											<p class="service__titlelast">advertising</p>
+										</div>
+										<div class="service__namelast">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi,
+											dignissimos?</div>
+										<div class="service__textlast"><span><a href="">ORDER NOW > </a></span></div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- ========= RIGHT frame =========== -->
+			<div class="frame_3 right">
+				<div class="right__buttons">
+					<div class="right__modebtn">
+						<img src="btn_icon/mode.svg" alt="">
+					</div>
+					<div class="right__btnitems">
+						<div class="right__btn">
+							<a href=""> <img src="btn_icon/Home.svg" alt=""></a>
+						</div>
+						<div class="right__btn">
+							<a href=""><img src="btn_icon/Service.svg" alt=""></a>
+						</div>
+						<div class="right__btn">
+							<a href=""><img src="btn_icon/Cv.svg" alt=""></a>
+						</div>
+						<div class="right__btn">
+							<a href=""><img src="btn_icon/Portfolio.svg" alt=""></a>
+						</div>
+						<div class="right__btn">
+							<a href=""><img src="btn_icon/Blog.svg" alt=""></a>
+						</div>
+						<div class="right__btn">
+							<a href=""><img src="btn_icon/Contact.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
