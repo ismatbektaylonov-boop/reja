@@ -39,7 +39,7 @@ app.get('/author', function (req, res) {
 })
 
 app.get('/', function (req, res) {
-	res.render('harid')
+	res.render('reja')
 })
 // app.get('/hello', function (req, res) {
 // 	res.end(`<h1 style="color: red;">Hello World! by Ismatbek</h1>`)
