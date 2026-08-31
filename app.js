@@ -25,12 +25,8 @@ app.post('/create-item', (req, res) => {
 			reja: new_reja,
 		},
 		(err, data) => {
-			if (err) {
-				console.log(err)
-				res.end('something went wrong')
-			} else {
-				res.end('successfully added')
-			}
+			console.log(data.ops)
+			res.json(data.ops[0])
 		},
 	)
 })
