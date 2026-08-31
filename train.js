@@ -1,3 +1,20 @@
+// B-TASK:
+
+// Shunday function tuzing, u 1ta string parametrga ega bolsin, hamda osha stringda qatnashgan raqamlarni sonini bizga return qilsin.
+// MASALAN countDigits("ad2a54y79wet0sfgb9") 7ni return qiladi.
+
+let count = 0
+function countDigits(word) {
+	for (let i = 0; i < word.length; i++) {
+		if (word[i] === String(Number(word[i]))) {
+			count++
+		}
+	}
+	return count
+}
+
+console.log(countDigits('ad2a54y79wet0sfgb9'))
+
 // A-TASK:
 
 // Harf sifatida kiritilgan birinchi parametr,
@@ -8,17 +25,17 @@
 // 'engineer' so'zi tarkibida 'e' harfi 3 marotaba takrorlanganligi uchun
 // 3 sonini qaytaradi
 
-let count = 0
-function countLetter(letter, word) {
-	for (let i = 0; i < word.length; i++) {
-		if (word[i] === letter) {
-			count++
-		}
-	}
-	return count
-}
+// let count = 0
+// function countLetter(letter, word) {
+// 	for (let i = 0; i < word.length; i++) {
+// 		if (word[i] === letter) {
+// 			count++
+// 		}
+// 	}
+// 	return count
+// }
 
-console.log(countLetter('e', 'engineer'))
+// console.log(countLetter('e', 'engineer'))
 // console.log(countLetter('a', 'assalam'))
 
 // console.log('Jack Ma maslahatlari')
