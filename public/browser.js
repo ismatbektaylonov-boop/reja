@@ -57,6 +57,33 @@ document.addEventListener('click', function (e) {
 
 	// edit oper
 	if (e.target.classList.contains('edit-me')) {
-		alert('siz edit tugmasini bosdingiz')
+		let itemSpan =
+			e.target.parentElement.parentElement.querySelector('.item-text')
+		let currentText = itemSpan.textContent.trim() // .trim() barcha ortiqcha bo'shliq va Tab'larni olib tashlaydi
+
+		let userInput = prompt("O'zgartirish kiriting", currentText)
+
+		if (userInput && userInput.trim() !== '') {
+			axios
+				.post('/edit-item', {
+					id: e.target.getAttribute('data-id'),
+					new_input: userInput.trim(),
+				})
+				.then(response => {
+					if (response.data.state === 'success') {
+						itemSpan.textContent = userInput.trim()
+					}
+				})
+				.catch(err => {
+					console.log('Iltimos qaytadan harakat qiling!')
+				})
+		}
 	}
+})
+
+document.getElementById('clean-all').addEventListener('click', function () {
+	axios.post('/delete-all', { delete_all: true }).then(respose => {
+		alert(respose.data.state)
+		document.location.reload()
+	})
 })
